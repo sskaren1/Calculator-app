@@ -1,0 +1,18 @@
+@use "base/variables" as v;
+@use "base/colours" as c;
+@use "base/mixins" as m;
+
+.footer{
+  background-color: c.$main_bg;
+  padding: v.$padding_elemt;
+}
+.footer__attribution {
+  p {
+    color: c.$color-4;
+    text-align: center;
+    a {
+      color: c.$color-9;
+      font-family: v.$secondary-font;
+    }
+  }
+}

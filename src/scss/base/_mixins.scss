@@ -1,0 +1,29 @@
+/** Media Queries **/
+@use 'variables' as v;
+
+// Media queries
+@mixin telefono {
+    @media only screen and (min-width: v.$telefono) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media only screen and (min-width: v.$tablet) {
+        @content;
+    }
+}  
+@mixin desktop {
+    @media only screen and (min-width: v.$desktop) {
+        @content;
+    }
+}
+@mixin macbook_air {
+    @media only screen and (min-width: v.$macbook_air) {
+        @content;
+    }
+}
+@mixin macbook_pro_13 {
+    @media only screen and (min-width: v.$macbook_pro_13) {
+        @content;
+    }
+}

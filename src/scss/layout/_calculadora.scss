@@ -1,0 +1,63 @@
+@use "base/variables" as v;
+@use "base/colours" as c;
+@use "base/mixins" as m;
+
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: c.$main_bg;
+  height: 100vh;
+}
+
+.calculator__container {
+  max-width: 38rem;
+  min-width: 30rem;
+  margin: 0 auto;
+}
+
+.calculator__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: c.$secondary-title;
+  margin-bottom: v.$margin_elemt;
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+.calculator__result {
+  background-color: c.$color-3;
+  text-align: end;
+  padding: calc(v.$padding_elemt*2) v.$padding_elemt;
+  margin-bottom: v.$margin_elemt;
+  border-radius: 1rem;
+  span {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+}
+
+.calculator__buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: c.$color-2;
+  border-radius: 1rem;
+  padding: v.$padding_elemt;
+}
+
+.item--reset {
+  grid-column: 1 / 3;
+}
+
+.item--equal {
+  grid-column: 3 / 5;
+}
+
