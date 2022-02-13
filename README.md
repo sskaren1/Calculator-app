@@ -1,7 +1,7 @@
 # Frontend Mentor - Calculator app
 ## Welcome! 👋
 
-This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -32,8 +32,8 @@ Add a screenshot of my solution.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/sskaren1/Sunnyside-agency-landing-page.git)
-- Live Site URL: [Add live site URL here](https://sskaren1.github.io/Sunnyside-agency-landing-page/)
+- Solution URL: [Add solution URL here](https://github.com/sskaren1/Calculator-app.git)
+- Live Site URL: [Add live site URL here](https://sskaren1.github.io/Calculator-app/)
 
 ## My process
 
